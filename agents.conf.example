@@ -1,0 +1,14 @@
+# agents.conf — agent 抽象层
+# 格式：agent名=该 agent 的 skills 目录路径（可用 $HOME）
+# 把你实际在用的 agent 填进来；install.sh 会读这个文件。
+#
+# 常见 AI agent 的 skills 目录（按你装的来填）：
+
+claude=$HOME/.claude/skills
+cursor=$HOME/.cursor/skills
+qoderwork=$HOME/.qoderwork/skills
+qoder=$HOME/.qoder/skills
+agents=$HOME/.agents/skills
+
+# 也可加你自己的 agent：
+# my-agent=$HOME/.my-agent/skills

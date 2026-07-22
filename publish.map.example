@@ -1,0 +1,17 @@
+# publish.map — skill 分发注册表
+# 格式：skill名=项目路径|目标agent
+#   - 项目路径：相对工厂根的相对路径，或绝对路径（skill 可在工厂外）
+#   - 目标agent：agents.conf 里的 agent 名，逗号分隔多个；all = 所有 agent
+#
+# 示例：
+
+# 分发到所有 agent
+skill-bootstrap=skill-bootstrap|all
+skill-creator=skill-creator|all
+skill-iterating=skill-iterating|all
+
+# 只分发到特定 agent
+# my-private-skill=my-private-skill|claude,cursor
+
+# skill 住在工厂外（绝对路径）
+# external-skill=/path/to/external-skill|all
