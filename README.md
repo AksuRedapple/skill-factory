@@ -50,7 +50,7 @@
 | `agents.conf` | agent 抽象。`agent名=skills目录路径`，把各家 agent 的目录差异收敛到一处 |
 | `install.sh` | 安装器。读注册表 + agent 配置，建软链。支持 `--all` / `--list` / `--agent` |
 
-## 配套：四个元 skill（skill 的方法论）
+## 配套：三个元 skill（skill 的方法论）
 
 工厂不只有分发机制，还有一套"怎么做 skill"的完整方法论，本身也是 skill：
 
@@ -60,14 +60,11 @@ skill-bootstrap  →  项目结构初始化（在哪做、怎么发布、选哪�
 skill-creator    →  SKILL.md 内容编写（从 0 到 1 怎么写好）
        ↓ 初版完成
 skill-iterating  →  持续迭代优化（从 1 到 N）
-       ↓ 成熟可发布
-skill-publish    →  开源发布（脱敏、补发布文件、发文审计、独立成库、发 release）
 ```
 
 - **[skill-bootstrap](skill-bootstrap/SKILL.md)**：新建 skill 项目时的引导——目录结构、安装模式选择、发布映射注册。
 - **[skill-creator](skill-creator/SKILL.md)**：编写 SKILL.md 的完整流程——捕获意图、访谈细化、渐进式披露、触发描述优化。
 - **[skill-iterating](skill-iterating/SKILL.md)**：已有 skill 的持续迭代——冒烟测试、commit 检查点、跨会话恢复。
-- **[skill-publish](skill-publish/SKILL.md)**：把私有 skill 整理成可开源形态——脱敏扫描、补发布文件、README 发文审计、独立成库、打 tag 发 release。
 
 ## 快速开始
 
